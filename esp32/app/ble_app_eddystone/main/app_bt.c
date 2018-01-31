@@ -189,12 +189,12 @@ static void hci_cmd_send_ble_set_adv_data(void)
     adv_data[18] = 0x67;  // URL add  5 'g'
     adv_data[19] = 0x6C;  // URL add  6 'l'
     adv_data[20] = 0x2F;  // URL add  7 '/'
-    adv_data[21] = 0x32;  // URL add  8 '2'
-    adv_data[22] = 0x79;  // URL add  9 'y'
-    adv_data[23] = 0x43;  // URL add 10 'C'
-    adv_data[24] = 0x36;  // URL add 11 '6'
-    adv_data[25] = 0x4B;  // URL add 12 'K'
-    adv_data[26] = 0x58;  // URL add 13 'X'
+    adv_data[21] = 0x6F;  // URL add  8 '2' 6f434a68424a
+    adv_data[22] = 0x43;  // URL add  9 'y'
+    adv_data[23] = 0x4A;  // URL add 10 'C'
+    adv_data[24] = 0x68;  // URL add 11 '6'
+    adv_data[25] = 0x42;  // URL add 12 'K'
+    adv_data[26] = 0x4A;  // URL add 13 'X'
 
     adv_data_len = 27;
 
